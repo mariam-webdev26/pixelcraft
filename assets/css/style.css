@@ -1286,14 +1286,18 @@ body{
 
 /* ------------------------------------ Map Section ---------------------------- */
 .contact-map{
-    padding-bottom:100px;
+    padding:0 0 100px;
     background:#f8fafc;
 }
 
 .map-box{
-    border-radius:20px;
     overflow:hidden;
+    border-radius:20px;
     box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.map-box iframe{
+    display:block;
 }
 
 
